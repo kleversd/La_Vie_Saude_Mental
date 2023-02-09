@@ -25,7 +25,7 @@ const authController = {
             id: psicologo.id,
             email: psicologo.email,
             nome: psicologo.nome
-        }, secret.key)
+        }, "secret")
 
         return res.json(token)
     }
